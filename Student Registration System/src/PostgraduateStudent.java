@@ -1,7 +1,7 @@
-public class UndergraduateStudent extends Student {
+public class PostgraduateStudent {
     private String studentStatus;
     public String update(){
-        this.studentStatus = "Under Graduate";
+        this.studentStatus = "Post Graduate";
         return studentStatus;
     }
 }
